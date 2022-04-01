@@ -1,0 +1,69 @@
+.container {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.card {
+  width: 95vw;
+  padding: 10px;
+  margin: 8px;
+  background: rgba(61, 60, 60, 0.034);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.card-icon-title {
+  z-index: 10;
+  position: absolute;
+  font-size: 20px;
+  color: rgb(220, 20, 60);
+}
+
+.card-icon-coordinates {
+  color: #fff;
+  position: relative;
+  right: 10px;
+  font-size: 20px;
+}
+
+.card-title {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  padding-left: 40px;
+  margin: -10px 50px 5px -10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: rgb(220, 20, 60);
+  width: 98%;
+  background-image: url("https://media.istockphoto.com/vectors/futuristic-route-dashboard-gps-tracking-map-navigate-mapping-and-vector-id1153799902?b=1&k=20&m=1153799902&s=170667a&w=0&h=Kq4QZl-sIyHzNGA3czcgwHZ_ivVI9gd_yma3h5anlls=");
+  background-position: bottom;
+}
+
+.card-coordinates {
+  padding: 10px;
+}
+.card-place {
+  padding: 10px;
+}
+
+.card-icon--bookmark {
+  position: relative;
+  right: 10px;
+  top: 5px;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
