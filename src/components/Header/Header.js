@@ -12,7 +12,7 @@ const Header = ({ getLocation }) => {
       <div className="title-container">
         <h1> Mapbox Geocoding API </h1>
       </div>
-      <div className="search-box" style={{ fontWeight: 600, fontSize: 24 }}>
+      <div className="search-box">
         <input
           className="search-input"
           placeholder="Search a location"
